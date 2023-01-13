@@ -7,26 +7,23 @@
 </head>
 
 <body>
+<h1>Feeback Form</h1>
 	<!-- the entire body must be written by student -->
 	<form action="#">
-		<div>
-			<label for="Name1" >Name1</label>
-			<input type="text" id="portfolio" maxlength="50" minlength="3"></input>
-		</div> <br>
-		<div>
-			<label for="Name2">Name2</label>
-			<input type="text" id="portfolio" maxlength="50" minlength="3"></input>
-		</div> <br>
-		<textarea id="portfolio"></textarea>
+		
+			<label for="name" >Name</label>
+			<input type="text" id="name" maxlength="50" minlength="3" required></input>
+		
+	<label for="portfolio">Your Portfolio</label>
+		<input type="url" id="portfolio" required/>
 
-		<div>
-			<label for="color">color</label>
-			<input type="color" id="favColor">
-		</div>
-		<div>
-			<label for="color">color</label>
-			<input type="range" min="1" max="100" value="50" id="likeness">
-		</div>
+	
+			<label for="favColor">Your fav color</label>
+			<input type="color" id="favColor"/>
+	
+			<label for="likeness">Likeness</label>
+			<input type="range" min="1" max="100" id="likeness"/>
+	
 		
 	</form>
 	
